@@ -38,74 +38,63 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      
 ------- BUTTON
     
-AddButton(Tab1o, {
+ AddButton(Tab1o, {
      Name = "fly",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
   end
   })
  
-AddButton(Tab1o, {
+ AddButton(Tab1o, {
      Name = "ambot",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
   end
   })
  
-AddButton(Tab2o, {
+ AddButton(Tab2o, {
      Name = "tan hinh",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/minhnhatdepzai8-cloud/Invisible/refs/heads/main/TSB"))()
   end
   })
  
-AddButton(Tab2o, {
+ AddButton(Tab2o, {
      Name = "fix lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
  
-AddButton(Tab3o, {
+ AddButton(Tab3o, {
      Name = "dat",
     Callback = function()
 	  loadstring(game:HttpGet("https://github.com/LuaCrack/DatThg/raw/refs/heads/main/DatThgV5English"))()
   end
   })
-
-AddButton(Tab3o, {
-     Name = "fram kill",
-    Callback = function()
-	  local script_mode = "PVP" -- PVP, FARM
-local loader = loadstring
-local url = "https://raw.githubusercontent.com/hermanos-dev/hermanos-hub/refs/heads/main/Loader.lua"
-local response = game:HttpGet(url)
-loader(response)()
-  end
-  })
- 
-AddButton(Tab4o, {
+  
+ AddButton(Tab4o, {
      Name = "doi sever",
     Callback = function()
 	  https://raw.githubusercontent.com/WhiteX1208/Scripts/refs/heads/main/HopScript.luau
   end
   })
- 
-AddButton(Tab4o, {
+  
+ AddButton(Tab4o, {
      Name = "zed hud",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/luraobermeyer-jpg/redzhub/refs/heads/main/redzhub.lua.txt"))()
   end
   })
  
-AddButton(Tab5o, {
+ AddButton(Tab5o, {
      Name = "eved",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/sccv8/WhakizashiX/refs/heads/main/old%20whakizashi.txt"))()
   end
   })
  
-AddButton(Tab5o, {
+ AddButton(Tab5o, {
      Name = "nem thung rac tsb",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/yes1nt/yes/refs/heads/main/Trashcan%20Man", true))()
