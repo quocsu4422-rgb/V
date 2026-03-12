@@ -31,7 +31,9 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script phụ"}).  
+     
      local Tab2o = MakeTab({Name = "Script blox fruit"})   
+     
      local Tab3o = MakeTab({Name = "Script game khác"})   
      
 ------- BUTTON
